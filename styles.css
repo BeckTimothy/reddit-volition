@@ -1,3 +1,9 @@
+/* padding removal for home page*/
+div.bE7JgM2ex7W3aF3zci5bm {
+	padding-left: 0; !important;
+}
+
+/*arrows beside RPAN/Livestream component*/
 .Rz5N3cHNgTGZsIQJqBfgk {
 	display: none;
 }
@@ -16,12 +22,16 @@
 ._1c8HaTqXDAT7pYLrFLAWFt {
 	display: none;
 }
+
+/*arrows beside not-yet-loaded posts and comments*/
 .icon-upvote {
 	display: none;
 }
 .icon-downvote {
 	display: none;
 }
+
+/*arrows beside posts and comments*/
 div[id^='vote-arrows'] {
 	display: none;
 }

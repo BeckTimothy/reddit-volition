@@ -65,8 +65,3 @@ ___
 ___
 
 
-
-TODO: discuss the negative implications of karma
-
-- Groupthink/Hivemind
-- Point System Addiction

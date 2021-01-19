@@ -52,3 +52,48 @@ div.bE7JgM2ex7W3aF3zci5bm {
 div[id^='vote-arrows'] {
 	display: none;
 }
+
+/* old reddit karma by username*/
+.userkarma {
+	display: none;
+}
+/*user karma parenth text hide*/
+span.user {
+	color: #EFF7FF;
+}
+/*old reddit profile karma breakdown*/
+span.karma {
+	display: none;
+}
+/* old reddit home arrows */
+div.arrow {
+	display: none;
+}
+/* old reddit home downvotes */
+div.down {
+	display: none;
+}
+/* old reddit home upvotes */
+div.up {
+	display: none;
+}
+/* old reddit home scores */
+div.score {
+	display: none;
+}
+/* old reddit home likes */
+/*div.likes {*/
+/*	display: none;*/
+/*}*/
+/* old reddit home dislikes */
+div.dislikes {
+	display: none;
+}
+/*rank fix on old reddit home page*/
+span.rank {
+	padding-right: 1rem;
+}
+/*remove titlebox containing karma on old reddit profile*/
+div.titlebox {
+	display: none;
+}

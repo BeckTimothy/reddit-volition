@@ -8,13 +8,13 @@ ___
 
 ### Table of Contents
 
-- [What is Reddit Volition](/README.md#What-Is-Reddit-Volition)
+- [What is Reddit Volition](./README.md#What-Is-Reddit-Volition)
 - [License](/README.md#)
 - [How to use Reddit Volition](/README.md#How-To-Use-Reddit-Volition)
 - [What is Groupthink](/README.md#How-To-Use-Reddit-Volition)
 - [How is Karma Addictive](/README.md#What-Is-GroupThink)
 - [How to report a bug](/#How-Is-Karma-Addictive)
-- [How to contribute](/#How-To-Report-A-Bug)
+- [How to contribute](./#How-To-Report-A-Bug)
 
 ___
 

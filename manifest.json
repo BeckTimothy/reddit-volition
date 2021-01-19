@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Volition",
+  "version": "1.0",
+  "description": "This extension removes the psychological exploit that is Reddit Karma",
+  "content_scripts": [
+        {
+            "matches": ["https://www.reddit.com/*",
+                "https://old.reddit.com/*",
+              "http://old.reddit.com/*",
+              "http://reddit.com/*"
+            ],
+            "css": ["styles.css"]
+        }
+  ],
+  "page_action": {
+         "default_icon":  "img.png",
+         "default_popup": "popup.html",
+         "default_title": "My custom google page!"
+     }
+}

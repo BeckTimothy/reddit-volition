@@ -8,13 +8,13 @@ ___
 
 ### Table of Contents
 
-- [What is Reddit Volition](//README.md#What-Is-Reddit-Volition)
-- [License](//README.md#)
-- [How to use Reddit Volition](//README.md#How-To-Use-Reddit-Volition)
-- [What is Groupthink](//README.md#How-To-Use-Reddit-Volition)
-- [How is Karma Addictive](//README.md#What-Is-GroupThink)
-- [How to report a bug](//README.md#How-Is-Karma-Addictive)
-- [How to contribute](//README.md#How-To-Report-A-Bug)
+- [What is Reddit Volition](/README.md#What-Is-Reddit-Volition)
+- [License](/README.md#)
+- [How to use Reddit Volition](/README.md#How-To-Use-Reddit-Volition)
+- [What is Groupthink](/README.md#How-To-Use-Reddit-Volition)
+- [How is Karma Addictive](/README.md#What-Is-GroupThink)
+- [How to report a bug](/#How-Is-Karma-Addictive)
+- [How to contribute](/#How-To-Report-A-Bug)
 
 ___
 
@@ -39,7 +39,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received [a copy of the GNU General Public License
-along with this program.](//LICENSE.txt)  If not, see <https://www.gnu.org/licenses/>.
+along with this program.](/LICENSE.txt)  If not, see <https://www.gnu.org/licenses/>.
 
 ___
 

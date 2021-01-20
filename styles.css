@@ -93,7 +93,55 @@ div.dislikes {
 span.rank {
 	padding-right: 1rem;
 }
-/*remove titlebox containing karma on old reddit profile*/
+/*remove karma from titlebox containing karma on old reddit profile*/
 div.titlebox {
+	font-size: 0;
+	/*display: none;*/
+}
+h1.titlebox {
+	font-size: 18px;
+	/*display: none;*/
+}
+div.num-gildings {
+	font-size: 12px;
+	/*display: none;*/
+}
+div.snoovatar-link > a {
+	 font-size: 12px;
+	 /*display: none;*/
+ }
+div.server-seconds {
+	font-size: 12px;
+	/*display: none;*/
+}
+span.age {
+	font-size: 12px;
+	/*display: none;*/
+}
+
+/*remove comment karma from inside comments on profile*/
+div.likes > p.tagline > span.score {
+	display: none;
+}
+div.likes > p.tagline > span.unvoted {
+	display: none;
+}
+div.likes > p.tagline > span.dislikes {
+	display: none;
+}
+div.likes > p.tagline > span.likes {
+	display: none;
+}
+/*remove comment karma from inside comments on posts*/
+div.entry > p.tagline > span.unvoted {
+	display: none;
+}
+div.entry > p.tagline > span.dislikes {
+	display: none;
+}
+div.entry > p.tagline > span.likes {
+	display: none;
+}
+div.entry > p.tagline > span.score {
 	display: none;
 }

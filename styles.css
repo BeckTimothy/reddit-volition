@@ -40,6 +40,17 @@ div.bE7JgM2ex7W3aF3zci5bm {
 	display: none;
 }
 
+
+/*karma inside comment section of profile*/
+span._2ETuFsVzMBxiHia6HfJCTQ._3_GZIIN1xcMEC5AVuv4kfa {
+	display: none;
+}
+
+/*karma display inside user tooltip*/
+div[id^='UserInfoTooltip'] > div._m7PpFuKATP9fZF4xKf9R > div._1T5Mo-6GI-SCbGJJ9xZ2N7 {
+	display: none;
+}
+
 /*arrows beside not-yet-loaded posts and comments*/
 .icon-upvote {
 	display: none;

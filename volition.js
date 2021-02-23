@@ -41,8 +41,6 @@ function includeKarma() {
 	head.appendChild(link);
 }
 
-
-
 function includeCoins() {
 
 }

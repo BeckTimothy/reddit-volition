@@ -5,6 +5,7 @@
   "description": "This extension removes the psychological exploit that is Reddit Karma",
   "content_scripts": [
         {
+            "run_at": "document_start",
             "matches": ["https://www.reddit.com/*",
                 "https://old.reddit.com/*",
               "http://old.reddit.com/*",

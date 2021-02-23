@@ -335,6 +335,10 @@ a[href^='/premium'] {
     display: none !important;
 }
 
+a[href^='https://www.reddit.com/premium'] {
+    display: none !important;
+}
+
 /*premium profile fairy animation*/
 ._34XIqvI8-YT1wukR_W8vj6 > div[role^='presentation'] {
     display: none !important;
@@ -380,6 +384,10 @@ Button[id^="COIN_PURCHASE_DROPDOWN_ID"] {
 
 /*get coins ad in user dropdown menu*/
 a[href^='/coins'] {
+    display: none !important;
+}
+
+a[href^='https://www.reddit.com/coins'] {
     display: none !important;
 }
 
@@ -449,12 +457,12 @@ Karma related: combocommenter, combolinker, best comment, best link, well-rounde
 }
 
 /*trophy case show more row*/
-.TmgZY6tDcdErbE5d7E0HJ {
+._1VP69d9lk-Wk9zokOaylL .hciOr5UGrnYrZxB11tX9s div._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX > .TmgZY6tDcdErbE5d7E0HJ > .XZK-LTFT5CgGo9MvPQQsy {
     display: none !important;
 }
 
 /*trophy case title row*/
-._ZhON3a3vplThB8NFwuJn {
+._1VP69d9lk-Wk9zokOaylL .hciOr5UGrnYrZxB11tX9s div._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX > div._ZhON3a3vplThB8NFwuJn > h2._eYtD2XCVieq6emjKBH3m {
     display: none !important;
 }
 /*old reddit trophy case*/

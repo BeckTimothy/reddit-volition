@@ -12,13 +12,19 @@
               "https://redditstatic.com/*",
               "http://redditstatic.com/*"
             ],
-            "css": ["styles.css"],
             "js": ["volition.js"]
         }
   ],
-  "page_action": {
-         "default_icon":  "img.png",
-         "default_popup": "popup.html",
-         "default_title": "Reddit Volition"
-     }
+  "web_accessible_resources":[
+    "styles.css"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon":  "img.png",
+    "default_title": "Reddit Volition"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
 }

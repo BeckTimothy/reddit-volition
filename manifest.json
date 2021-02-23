@@ -8,7 +8,9 @@
             "matches": ["https://www.reddit.com/*",
                 "https://old.reddit.com/*",
               "http://old.reddit.com/*",
-              "http://reddit.com/*"
+              "http://reddit.com/*",
+              "https://redditstatic.com/*",
+              "http://redditstatic.com/*"
             ],
             "css": ["styles.css"]
         }

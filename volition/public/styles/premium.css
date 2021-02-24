@@ -1,0 +1,68 @@
+/*
+Copyright (C) 2021 Timothy Beck
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*
+'########::'########::'########:'##::::'##:'####:'##::::'##:'##::::'##:
+ ##.... ##: ##.... ##: ##.....:: ###::'###:. ##:: ##:::: ##: ###::'###:
+ ##:::: ##: ##:::: ##: ##::::::: ####'####:: ##:: ##:::: ##: ####'####:
+ ########:: ########:: ######::: ## ### ##:: ##:: ##:::: ##: ## ### ##:
+ ##.....::: ##.. ##::: ##...:::: ##. #: ##:: ##:: ##:::: ##: ##. #: ##:
+ ##:::::::: ##::. ##:: ##::::::: ##:.:: ##:: ##:: ##:::: ##: ##:.:: ##:
+ ##:::::::: ##:::. ##: ########: ##:::: ##:'####:. #######:: ##:::: ##:
+..:::::::::..:::::..::........::..:::::..::....:::.......:::..:::::..::
+*/
+/* Buy premium side banner*/
+._1b1Jalg2nxA_Z-BjKXRfAV {
+    display: none !important;
+}
+
+/* Buy premium ad in user dropdown menu*/
+a[href^='/premium'] {
+    display: none !important;
+}
+
+a[href^='https://www.reddit.com/premium'] {
+    display: none !important;
+}
+
+/*premium profile fairy animation*/
+._34XIqvI8-YT1wukR_W8vj6 > div[role^='presentation'] {
+    display: none !important;
+}
+
+/*snoovatar premium gold aura top*/
+div._18b8M-cZftX_frkYRy3DN1 {
+    display: none !important;
+}
+
+/*snoovatar premium gold aura bottom*/
+div._1-PwjX8ETMrfCu2hAkAHFd {
+    display: none !important;
+}
+
+/*All snoovatars, because they can contain premium-only functionality*/
+img[src*='snoovatars'] {
+    display: none !important;
+}
+/*old reddit snoovitar*/
+.snoovatar-link {
+    display: none !important;
+}
+/*old reddit server time purchased banner*/
+.server-seconds {
+    display: none !important;
+}

@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Volition",
+  "version": "0.1.0",
+  "description": "React Test - This extension removes the psychological exploit that is Reddit Karma",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.reddit.com/*",
+        "https://old.reddit.com/*",
+        "http://old.reddit.com/*",
+        "http://reddit.com/*",
+        "https://redditstatic.com/*",
+        "http://redditstatic.com/*"
+      ],
+      "js": ["volition.js"]
+    }
+  ],
+  "web_accessible_resources":[
+    "./styles/ads.css",
+    "./styles/awards.css",
+    "./styles/coins.css",
+    "./styles/karma.css",
+    "./styles/premium.css",
+    "./styles/rpan.css",
+    "./styles/trophies.css"
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon":  "img.png",
+    "default_title": "Reddit Volition"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'sha256-cTUWdo6XCssWaHKVvkFjIp3F1og8jbdoO6DTidjBYfg='; object-src 'self'"
+}
+

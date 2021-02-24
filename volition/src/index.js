@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-bootstrap';
+
+//import 'chrome-extension://hiciebfpfojafpoijaknlninmnblaflo/static/js/2.05222e72.chunk.js.map';
+//import 'chrome-extension://hiciebfpfojafpoijaknlninmnblaflo/static/js/main.005acace.chunk.js.map';
+//import 'chrome-extension://hiciebfpfojafpoijaknlninmnblaflo/static/css/main.8c8b27cf.chunk.css.map';
 
 ReactDOM.render(
   <React.StrictMode>

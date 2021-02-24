@@ -5,16 +5,6 @@ import {ButtonSpan} from "./components/ButtonSpan.js"
 /* global chrome */
 /* global sync */
 
-//document.addEventListener('DOMContentLoaded', function() {
-//  document.getElementById("volitionKarma").addEventListener("click", vKarmaHandler);
-//  document.getElementById("volitionRpan").addEventListener("click", vRpanHandler);
-//  document.getElementById("volitionCoins").addEventListener("click", vCoinsHandler);
-//  document.getElementById("volitionAwards").addEventListener("click", vAwardsHandler);
-//  document.getElementById("volitionPremium").addEventListener("click", vPremiumHandler);
-//  document.getElementById("volitionTrophies").addEventListener("click", vTrophiesHandler);
-//  document.getElementById("volitionAds").addEventListener("click", vAdsHandler);
-//});
-
 //let volitionKarma, volitionRpan, volitionCoins, volitionAwards, volitionPremium, volitionTrophies, volitionAds = null
 
 //const getValues = () => {
@@ -38,7 +28,7 @@ function App() {
       <header className="App-header">
 
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edisadfasdfat <code>src/App.js</code> and save to reload.
         </p>
         <ButtonSpan category={'volitionKarma'} />
       </header>

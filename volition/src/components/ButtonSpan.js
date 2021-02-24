@@ -1,4 +1,6 @@
-import {Button, Row} from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+//import {Button} from "../lib/react-bootstrap/cjs/Button.js"
+import Button from "react-bootstrap/Button";
 import {useState} from "react";
 /* global chrome */
 /* global sync */
@@ -70,19 +72,20 @@ export const ButtonSpan = (props) => {
 		})
 	}
 
-	console.log(`Rendering button with status: ${renderStatus}`);
+	console.log(`Rendering button with u status: ${renderStatus}`);
 
 	if(renderStatus === 0) {
 		return (
 			<Row className={'d-flex'}>
-				<Button id={category} variant="danger" className={''} onClick={ () => {handleButtons()}}>Click to Enable {category.substring(8)}</Button>
+				<Button id={category}  className={'btn btn-danger'} onClick={ () => {handleButtons()}}>Click to Enable {category.substring(8)}</Button>
 			</Row>
 		);
 	} else {
 		return (
 			<Row className={'d-flex'}>
-				<Button id={category} variant="success" className={''} onClick={ () => {handleButtons()}}>Click to Disable {category.substring(8)}</Button>
+				<Button id={category}  className={'btn btn-success'} onClick={ () => {handleButtons()}}>Click to Disable {category.substring(8)}</Button>
 			</Row>
 		);
 	}
 };
+

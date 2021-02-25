@@ -54,7 +54,7 @@ function App() {
          </Col>
          <Col className={'d-flex justify-content-center pt-2 pb-4'}>
             <span style={{fontSize: '0.8rem'}}>
-               v0.1.0 • <a className={'text-muted'} href={'https://github.com/BeckTimothy/reddit-volition'} target="_blank" rel="noopener noreferrer">Github</a> • <a className={'text-muted'} href={'https://www.linkedin.com/in/TimothymBeck/'} target="_blank" rel="noopener noreferrer">Contact</a> • <a className={'text-muted'} href={''} target="_blank" rel="noopener noreferrer">Gib Munie</a></span>
+               v0.1.0 • <a className={'text-muted'} href={'https://github.com/BeckTimothy/reddit-volition'} target="_blank" rel="noopener noreferrer">Github</a> • <a className={'text-muted'} href={'https://www.linkedin.com/in/TimothymBeck/'} target="_blank" rel="noopener noreferrer">Contact</a></span>
          </Col>
     </div>
   );

@@ -24,13 +24,6 @@
     "/styles/trophies.css",
     "/styles/ads.css",
     "/styles/rpan.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/karma.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/coins.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/awards.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/premium.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/trophies.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/ads.css",
-    "chrome-extension://ianifcjnelcnomgkhgncekmmdgdfgjaj/styles/rpan.css",
     "/static/js/2.7db30071.chunk.js.map",
     "/static/js/main.85811295.chunk.js.map",
     "/static/css/main.8c8b27cf.chunk.css.map"
@@ -54,7 +47,6 @@
   "permissions": [
     "activeTab",
     "storage"
-  ],
-  "content_security_policy": "script-src 'self' 'sha256-2tuCIlOvaUAHUuDQXYu87f+6OfxLYztHcK6scPyGOZw'; object-src 'self'; unsafe-inline; unsafe-inline 'self';"
+  ]
 }
 

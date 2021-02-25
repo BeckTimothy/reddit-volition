@@ -38,7 +38,7 @@ export const InfoBanner = (props) => {
 	if(true) {
 		return (
 			<Row className={'d-flex justify-content-center p-2'}>
-				<span style={{fontSize: '0.8rem'}} className={'text-secondary text-muted text-white-50 text-light text-white'}>{getQuote()}</span>
+				<span style={{fontSize: '0.8rem'}} className={'text-white-50'}>{getQuote()}</span>
 			</Row>
 		);
 	} else {

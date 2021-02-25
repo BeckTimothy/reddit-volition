@@ -21,7 +21,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {ButtonSpan} from "./components/ButtonSpan.js"
 import 'bootstrap/dist/css/bootstrap.css';
-
 //
 //const getQuote = () => {
 //	let quoteArr = [

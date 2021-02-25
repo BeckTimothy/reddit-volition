@@ -1,5 +1,4 @@
 import Row from "react-bootstrap/Row";
-//import {Button} from "../lib/react-bootstrap/cjs/Button.js"
 import Button from "react-bootstrap/Button";
 import {useState} from "react";
 /* global chrome */
@@ -8,27 +7,6 @@ import {useState} from "react";
 export const ButtonSpan = (props) => {
 	let category = props.category;
 	let status = null;
-	let volitionKarma = null;
-	let volitionRpan = null;
-	let volitionCoins = null;
-	let volitionAwards = null;
-	let volitionPremium = null;
-	let volitionTrophies = null;
-	let volitionAds = null;
-
-
-	const initializeValues = () => {
-		chrome.storage.sync.get(null, (result) => {
-			result['volitionKarma'] === 0 ? volitionKarma = 0 : volitionKarma = 1;
-			result['volitionRpan'] === 0 ? volitionRpan = 0 : volitionRpan = 1;
-			result['volitionCoins'] === 0 ? volitionCoins = 0 : volitionCoins = 1;
-			result['volitionAwards'] === 0 ? volitionAwards = 0 : volitionAwards = 1;
-			result['volitionPremium'] === 0 ? volitionPremium = 0 : volitionPremium = 1;
-			result['volitionTrophies'] === 0 ? volitionTrophies = 0 : volitionTrophies = 1;
-			result['volitionAds'] === 0 ? volitionAds = 0 : volitionAds = 1;
-		});
-	};
-	initializeValues();
 
 	const [renderStatus, setRenderStatus] = useState(2);
 	const handleRender = () => {

@@ -61,11 +61,16 @@ export const ButtonSpan = (props) => {
 			handleRender();
 		})
 	}
+
+	const buttonText = (category) => {
+		let text = category.substring(8);
+		return text.substring(text.length - 1) === 's' ? text += " are Blocked" : text += " is Blocked";
+	}
 	//console.log(`Rendering button with u status: ${renderStatus}`);
 	if(renderStatus === 0) {
 		return (
 			<Row className={'d-flex justify-content-center'}>
-				<Button id={category} variant="outline-success" className={'w-75 m-1'} onClick={ () => {handleButtons()}}>{category.substring(8)} is Blocked</Button>
+				<Button id={category} variant="outline-success" className={'w-75 m-1'} onClick={ () => {handleButtons()}}>{buttonText(category)}</Button>
 			</Row>
 		);
 	} else {

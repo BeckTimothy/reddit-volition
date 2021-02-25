@@ -32,7 +32,7 @@ export const InfoBanner = (props) => {
 			"\"Reality is how we interpret it. Imagination and volition play a part in that interpretation. Which means that all reality is to some extent a fiction.\" ~Yann Martel",
 			"\"Liberty is not about class war, income war, race war, national war, a war between the sexes, or any other conflict apart from the core conflict between individuals and those who would seek power and control over the human spirit. Liberty is the dream that we can all work together, in ways of our choosing and of our own human volition, to realize a better life.\" ~Jeffrey Tucker"
 		]
-		return quoteArr[Math.floor(Math.random() * Math.floor(quoteArr.length))];
+		return quoteArr[Math.floor(Math.random() * quoteArr.length)];
 	};
 
 	if(true) {

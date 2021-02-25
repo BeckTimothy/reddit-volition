@@ -1,62 +1,41 @@
-/*
-setting values into storage
-chrome.storage.sync.set({key: value}, function() {
-  console.log('Value is set to ' + value);
-});
-
- retrieving values from storage
-chrome.storage.sync.get(['key'], function(result) {
-  console.log('Value currently is ' + result.key);
-});
- */
-
-//all catagories are disabled by default
-	chrome.storage.sync.get(['volitionKarma'], (result) => {
-		console.log('Value currently is ' + result.key);
+chrome.storage.sync.get(null, (result) => {
+		console.log('Value currently is ');
 		console.log(result);
 		if(result['volitionKarma'] === 0){
-			includeKarma();
+			removeKarma();
 		}
 		if(result['volitionCoins'] === 0){
-			includeCoins();
+			removeCoins();
 		}
 		if(result['volitionAwards'] === 0){
-			includeAwards();
+			removeAwards();
 		}
 		if(result['volitionPremium'] === 0){
-			includePremium();
+			removePremium();
 		}
 		if(result['volitionTrophies'] === 0){
-			includeTrophies();
+			removeTrophies();
 		}
 		if(result['volitionAds'] === 0){
-			includeAds();
+			removeAds();
 		}
 		if(result['volitionRpan'] === 0){
-			includeRpan();
+			removeRpan();
 		}
 	});
 
-
-//chrome.storage.sync.get(['volitionKarma'], (result) => {
-//	console.log('Value currently is ' + result.key);
-//	console.log(result);
-//	if(result['volitionKarma'] === 0){
-//		removeKarma();
-//	}
-//});
-
-
-function includeKarma() {
+function removeKarma() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";
 	link.rel = "stylesheet";
-	link.href = chrome.runtime.getURL("./styles/karma.css");
+	link.href = chrome.runtime.getURL("styles/karma.css");
+	//link.href = "./styles/karma.css";
+	console.log(link);
 	head.appendChild(link);
 }
 
-function includeCoins() {
+function removeCoins() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";
@@ -65,7 +44,7 @@ function includeCoins() {
 	head.appendChild(link);
 }
 
-function includeAwards() {
+function removeAwards() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";
@@ -74,7 +53,7 @@ function includeAwards() {
 	head.appendChild(link);
 }
 
-function includePremium() {
+function removePremium() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";
@@ -83,7 +62,7 @@ function includePremium() {
 	head.appendChild(link);
 }
 
-function includeTrophies() {
+function removeTrophies() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";
@@ -92,7 +71,7 @@ function includeTrophies() {
 	head.appendChild(link);
 }
 
-function includeAds() {
+function removeAds() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";
@@ -101,7 +80,7 @@ function includeAds() {
 	head.appendChild(link);
 }
 
-function includeRpan() {
+function removeRpan() {
 	let head = document.head;
 	let link = document.createElement("link");
 	link.type = "text/css";

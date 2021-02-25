@@ -76,14 +76,14 @@ export const ButtonSpan = (props) => {
 
 	if(renderStatus === 0) {
 		return (
-			<Row className={'d-flex'}>
-				<Button id={category}  className={'btn btn-danger'} onClick={ () => {handleButtons()}}>Click to Enable {category.substring(8)}</Button>
+			<Row className={'d-flex justify-content-center'}>
+				<Button id={category} variant="outline-success" className={'w-75 m-1'} onClick={ () => {handleButtons()}}>{category.substring(8)} is Blocked</Button>
 			</Row>
 		);
 	} else {
 		return (
-			<Row className={'d-flex'}>
-				<Button id={category}  className={'btn btn-success'} onClick={ () => {handleButtons()}}>Click to Disable {category.substring(8)}</Button>
+			<Row className={'d-flex justify-content-center'}>
+				<Button id={category} variant="success" className={'w-75 m-1'} onClick={ () => {handleButtons()}}>Click to Block {category.substring(8)}</Button>
 			</Row>
 		);
 	}

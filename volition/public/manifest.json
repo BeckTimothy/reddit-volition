@@ -34,7 +34,6 @@
     "/static/js/2.7db30071.chunk.js.map",
     "/static/js/main.85811295.chunk.js.map",
     "/static/css/main.8c8b27cf.chunk.css.map"
-
   ],
   "browser_action": {
     "default_popup": "index.html",
@@ -56,6 +55,6 @@
     "activeTab",
     "storage"
   ],
-  "content_security_policy": "script-src 'self' 'sha256-cLo1u9YRlmzkZzuDYfRLnB0kCl0WEGlUg1V4DshmfJg'; object-src 'self'; unsafe-inline; unsafe-inline 'self';"
+  "content_security_policy": "script-src 'self' 'sha256-2tuCIlOvaUAHUuDQXYu87f+6OfxLYztHcK6scPyGOZw'; object-src 'self'; unsafe-inline; unsafe-inline 'self';"
 }
 

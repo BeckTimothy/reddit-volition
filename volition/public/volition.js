@@ -1,6 +1,8 @@
 /*
  * Copyright (C) 2021 Timothy Beck <dev@timothybeck.com>
- *
+ **********************************************************************
+ * * * * * * * * * * * * * RedditVolition * * * * * * * * * * * * * * *
+ **********************************************************************
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -51,59 +53,6 @@ chrome.storage.sync.get(null, (result) => {
 		}
 	});
 
-//function removeCoins() {
-//	let head = document.head;
-//	let link = document.createElement("link");
-//	link.type = "text/css";
-//	link.rel = "stylesheet";
-//	link.href = chrome.runtime.getURL("./styles/coins.css");
-//	head.appendChild(link);
-//}
-//
-//function removeAwards() {
-//	let head = document.head;
-//	let link = document.createElement("link");
-//	link.type = "text/css";
-//	link.rel = "stylesheet";
-//	link.href = chrome.runtime.getURL("./styles/awards.css");
-//	head.appendChild(link);
-//}
-//
-//function removePremium() {
-//	let head = document.head;
-//	let link = document.createElement("link");
-//	link.type = "text/css";
-//	link.rel = "stylesheet";
-//	link.href = chrome.runtime.getURL("./styles/premium.css");
-//	head.appendChild(link);
-//}
-//
-//function removeTrophies() {
-//	let head = document.head;
-//	let link = document.createElement("link");
-//	link.type = "text/css";
-//	link.rel = "stylesheet";
-//	link.href = chrome.runtime.getURL("./styles/trophies.css");
-//	head.appendChild(link);
-//}
-//
-//function removeAds() {
-//	let head = document.head;
-//	let link = document.createElement("link");
-//	link.type = "text/css";
-//	link.rel = "stylesheet";
-//	link.href = chrome.runtime.getURL("./styles/ads.css");
-//	head.appendChild(link);
-//}
-//
-//function removeRpan() {
-//	let head = document.head;
-//	let link = document.createElement("link");
-//	link.type = "text/css";
-//	link.rel = "stylesheet";
-//	link.href = chrome.runtime.getURL("./styles/rpan.css");
-//	head.appendChild(link);
-//}
 //
 //function getQuote() {
 //	let quoteArr = [

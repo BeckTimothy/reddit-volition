@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
         <Col className={'d-flex justify-content-around'}>
-           <Row className={'pt-3'}>
+           <Row className={'pt-3 align-items-center'}>
               <h1>Reddit Volition</h1>
            </Row>
         </Col>

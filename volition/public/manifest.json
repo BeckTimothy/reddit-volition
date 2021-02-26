@@ -16,7 +16,7 @@
       "js": ["volition.js"]
     }
   ],
-  "web_accessible_resources":[
+  "web_accessible_resources": [
     "/styles/karma.css",
     "/styles/coins.css",
     "/styles/awards.css",
@@ -26,7 +26,8 @@
     "/styles/rpan.css",
     "/static/js/2.7db30071.chunk.js.map",
     "/static/js/main.85811295.chunk.js.map",
-    "/static/css/main.8c8b27cf.chunk.css.map"
+    "/static/css/main.8c8b27cf.chunk.css.map",
+    "./img/wholesomeSeal920.png"
   ],
   "browser_action": {
     "default_popup": "index.html",

@@ -14,21 +14,9 @@
         "http://redditstatic.com/*"
       ],
       "js": ["volition.js"]
-    },
-    {
-      "run_at": "document_end",
-      "matches": ["https://www.reddit.com/*",
-        "https://old.reddit.com/*",
-        "http://old.reddit.com/*",
-        "http://reddit.com/*",
-        "https://redditstatic.com/*",
-        "http://redditstatic.com/*"
-      ],
-      "js": ["volitionAfterDomScripts.js"]
     }
   ],
   "web_accessible_resources": [
-    "/scripts/addVolitionClasses.js",
     "/styles/karma.css",
     "/styles/coins.css",
     "/styles/awards.css",

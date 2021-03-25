@@ -46,6 +46,10 @@ div.TmlaIdEplCzZ0F1aRGYQh {
 .Comment > div[aria-role^="presentation"] {
     display: none !important;
 }
+/* all Award comment highlighting*/
+.Comment > div[role^="presentation"] {
+    display: none !important;
+}
 
 /*Give award button*/
 Button._10K5i7NW6qcm-UoCtpB3aK.YszYBnnIoNY8pZ6UwCivd._3yh2bniLq7bYr4BaiXowdO._1EWxiIupuIjiExPQeK4Kud._28vEaVlLWeas1CDiLuTCap {

@@ -55,6 +55,12 @@ div.TmlaIdEplCzZ0F1aRGYQh {
 Button._10K5i7NW6qcm-UoCtpB3aK.YszYBnnIoNY8pZ6UwCivd._3yh2bniLq7bYr4BaiXowdO._1EWxiIupuIjiExPQeK4Kud._28vEaVlLWeas1CDiLuTCap {
     display: none !important;
 }
+
+/*Give award button on posts in compact view*/
+button[role^="menuitem"]._10K5i7NW6qcm-UoCtpB3aK._3LwUIE7yX7CZQKmD2L87vf._1muOrgIRB6t41qDocDiXul._1oYEKCssGFjqxQ9jJMNj5G:nth-child(1) {
+    display: none !important;
+}
+
 /* Old Reddit Give Award*/
 .give-gold-button {
     display: none !important;

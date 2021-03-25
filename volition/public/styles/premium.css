@@ -46,6 +46,30 @@ a[href^='https://www.reddit.com/premium'] {
     display: none !important;
 }
 
+/*old reddit server time purchased banner*/
+.server-seconds {
+    display: none !important;
+}
+
+/*
+..######..##....##..#######...#######.
+.##....##.###...##.##.....##.##.....##
+.##.......####..##.##.....##.##.....##
+..######..##.##.##.##.....##.##.....##
+.......##.##..####.##.....##.##.....##
+.##....##.##...###.##.....##.##.....##
+..######..##....##..#######...#######.
+ */
+
+/*style snoovatar modal*/
+div._2Bejocqb-InO8686E2ehf._1kJxmNuSOWrudEvEj4lSc8 {
+    display: none !important;
+}
+/*style snoovatar modal background shader*/
+div._1DK52RbaamLOWw5UPaht_S._1acwN_tUhJ8w-n7oCp-Aw3 {
+    display: none !important;
+}
+
 /*snoovatar premium gold aura top*/
 div._18b8M-cZftX_frkYRy3DN1 {
     display: none !important;
@@ -64,7 +88,8 @@ img[src*='snoovatars'] {
 .snoovatar-link {
     display: none !important;
 }
-/*old reddit server time purchased banner*/
-.server-seconds {
+
+/*hamburger menu button*/
+button._2KotRmn9DgdA58Ikji2mnV:nth-child(5) {
     display: none !important;
 }

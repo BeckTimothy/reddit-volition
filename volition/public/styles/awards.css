@@ -63,7 +63,10 @@ Button._10K5i7NW6qcm-UoCtpB3aK.YszYBnnIoNY8pZ6UwCivd._3yh2bniLq7bYr4BaiXowdO._1E
 Button._10K5i7NW6qcm-UoCtpB3aK.YszYBnnIoNY8pZ6UwCivd._3yh2bniLq7bYr4BaiXowdO._1EWxiIupuIjiExPQeK4Kud._28vEaVlLWeas1CDiLuTCap {
     display: none !important;
 }
-
+/*hides the SECOND button from the row of buttons under a post. This should be 'Give Awards' in a comment section and hopefully nothing else*/
+button._374Hkkigy4E4srsI2WktEd:nth-child(2) {
+    display: none !important;
+}
 /* Awards recieved in user profile box on profile page*/
 div._3Im6OD67aKo33nql4FpSp_ > a.oZjk-MiWCU7KVYej9wPSw {
     display: none !important;
@@ -82,9 +85,3 @@ a[href*='gilded'] {
     display: none !important;
 }
 
-
-
-/*custom class appended onto give award button in comments*/
-/*.volitionTargGiveAward {*/
-/*    display: none !important;*/
-/*}*/

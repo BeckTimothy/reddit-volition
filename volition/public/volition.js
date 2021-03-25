@@ -16,6 +16,32 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
+// const fixButtons = () => {
+// 	let buttons = document.querySelectorAll("button");
+// 	console.log(buttons);
+// 	buttons.forEach((x) => {
+// 		console.log('test');
+// 		console.log(x.innerText);
+// 	})
+//
+//
+// 	//console.log(buttons.namedItem(0).innerHTML);
+// 	//for (const element of buttons) {
+// 	//	console.log('test');
+// 	//	console.log(element);
+// 	//	console.log(element.innerText);
+// 	//}
+//
+//
+// 	//let len = buttons.length;
+// 	//for(let i=0;i<len;i++){
+// 	//	console.log(buttons[i]);
+// 	//	buttons[i].className += buttons[i].className ? ` voltarg${buttons[i].innerText.trim()}` : `voltarg${buttons[i].innerText.trim()}`;
+// 	//}
+// }
+// fixButtons();
+
+
 
 const removeFeature = (feature) => {
 	let head = document.head;
@@ -23,13 +49,13 @@ const removeFeature = (feature) => {
 	link.type = "text/css";
 	link.rel = "stylesheet";
 	link.href = chrome.runtime.getURL(`styles/${feature}.css`);
-	console.log(link);
+	//console.log(link);
 	head.appendChild(link);
 }
 
 chrome.storage.sync.get(null, (result) => {
-		console.log('Value currently is ');
-		console.log(result);
+		//console.log('Value currently is ');
+		//console.log(result);
 		if(result['volitionKarma'] === 0){
 			removeFeature('karma');
 		}

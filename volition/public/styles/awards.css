@@ -81,3 +81,10 @@ a[href*='gilded'] {
 .gold-expiration-info {
     display: none !important;
 }
+
+
+
+/*custom class appended onto give award button in comments*/
+/*.volitionTargGiveAward {*/
+/*    display: none !important;*/
+/*}*/

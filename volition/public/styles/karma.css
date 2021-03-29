@@ -233,3 +233,9 @@ a[href*='upvoted'] {
 a[href*='downvoted'] {
     display: none !important;
 }
+
+/*karma counter in recent view posts component on sidebar of main page*/
+div._3GMQrxl5pvXDUEFvUjr9Qh  > div > span.KoclPkialOte6pOEsb4vx:nth-child(1) {
+    display: none !important;
+}
+

@@ -66,8 +66,16 @@ div._2Bejocqb-InO8686E2ehf._1kJxmNuSOWrudEvEj4lSc8 {
     display: none !important;
 }
 
+/*style avatar button in profile page*/
+ ._3Im6OD67aKo33nql4FpSp_ > button._3F1tNW0P4Ff182mO_CefIg._2iuoyPiKHN3kfOoeIQalDT._10BQ7pjWbeYP63SAPNS8Ts.HNozj_dKjQZ59ZsfEegz8 {
+     display: none !important;
+ }
+/*create style avatar button in profile page*/
+._3Im6OD67aKo33nql4FpSp_ > button._3F1tNW0P4Ff182mO_CefIg._3DnDqV66Np6rVEiI8QK7kl._2iuoyPiKHN3kfOoeIQalDT._10BQ7pjWbeYP63SAPNS8Ts.HNozj_dKjQZ59ZsfEegz8 {
+    display: none !important;
+}
 
-/*snoovatar premium gold aura top*/
+    /*snoovatar premium gold aura top*/
 div._18b8M-cZftX_frkYRy3DN1 {
     display: none !important;
 }
@@ -90,3 +98,5 @@ img[src*='snoovatars'] {
 button._2KotRmn9DgdA58Ikji2mnV:nth-child(5) {
     display: none !important;
 }
+
+

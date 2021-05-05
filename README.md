@@ -20,6 +20,7 @@ ___
 
 ### What Is Reddit Volition
 
+Reddit Volition is (for now) a chrome extension that removes several key reddit features from the user's view as these features may be percieved as toxic, manipulative, and contribute to systematically warping a persons mind.
 
 
 ___
@@ -43,8 +44,13 @@ along with this program.](./LICENSE.txt)  If not, see <https://www.gnu.org/licen
 
 ___
 
-
 ### How To Use Reddit Volition
+
+Currently, the extension is not yet availible through the chrome store, however you can fork this repository and compile the extension privately within your own browser.
+
+To enable Reddit Volition's feature blocking capabilities, all you need to do is open the extension pop-over through your extension menu, and click the buttons that block the undesired features.
+
+![ABQ Veterans Logo](https://raw.githubusercontent.com/reddit-volition/master/resources/volitionMenu.png)
 
 ___
 

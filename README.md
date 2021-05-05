@@ -50,7 +50,7 @@ Currently, the extension is not yet availible through the chrome store, however 
 
 To enable Reddit Volition's feature blocking capabilities, all you need to do is open the extension pop-over through your extension menu, and click the buttons that block the undesired features.
 
-![ABQ Veterans Logo](https://raw.githubusercontent.com/reddit-volition/master/resources/volitionMenu.png)
+![ABQ Veterans Logo](https://raw.githubusercontent.com/reddit-volition/tree/master/resources/volitionMenu.png)
 
 ___
 

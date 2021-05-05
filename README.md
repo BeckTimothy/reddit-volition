@@ -50,8 +50,8 @@ Currently, the extension is not yet availible through the chrome store, however 
 
 To enable Reddit Volition's feature blocking capabilities, all you need to do is open the extension pop-over through your extension menu, and click the buttons that block the undesired features.
 
-![ABQ Veterans Logo](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionMenu.PNG)
-
+![Reddit Volition Pop-over](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionMenu.PNG)
+![Reddit Volition Before After](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionWithoutToWith.PNG)
 ___
 
 ### What Is GroupThink

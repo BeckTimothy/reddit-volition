@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Reddit Volition",
   "version": "0.1.0",
   "description": "React Test - This extension removes the psychological exploit that is Reddit Karma",
@@ -16,20 +16,30 @@
       "js": ["volition.js"]
     }
   ],
-  "web_accessible_resources": [
-    "/styles/karma.css",
-    "/styles/coins.css",
-    "/styles/awards.css",
-    "/styles/premium.css",
-    "/styles/trophies.css",
-    "/styles/ads.css",
-    "/styles/rpan.css",
-    "/static/js/2.7db30071.chunk.js.map",
-    "/static/js/main.85811295.chunk.js.map",
-    "/static/css/main.8c8b27cf.chunk.css.map",
-    "./img/wholesomeSeal920.png"
-  ],
-  "browser_action": {
+  "web_accessible_resources": [{
+    "resources": [
+      "/styles/karma.css",
+      "/styles/coins.css",
+      "/styles/awards.css",
+      "/styles/premium.css",
+      "/styles/trophies.css",
+      "/styles/ads.css",
+      "/styles/rpan.css",
+      "/static/js/main.b88ab7b0.chunk.js.map",
+      "/static/js/2.2c15bf3b.chunk.js.map",
+      "/static/css/main.3a24a4f0.chunk.css.map",
+      "./img/wholesomeSeal920.png"
+    ],
+    "matches": [
+      "https://www.reddit.com/*",
+      "https://old.reddit.com/*",
+      "http://old.reddit.com/*",
+      "http://reddit.com/*",
+      "https://redditstatic.com/*",
+      "http://redditstatic.com/*"
+    ]
+  }],
+  "action": {
     "default_popup": "index.html",
     "default_icon":  {
       "16": "/icons/wholesomeSeal16.png",

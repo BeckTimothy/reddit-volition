@@ -32,6 +32,10 @@ Button[id^="COIN_PURCHASE_DROPDOWN_ID"] {
     display: none !important;
 }
 
+span._2pXW42IYsGP59qZnjAnkAx{
+    display: none !important;
+}
+
 /*get coins ad in user dropdown menu*/
 a[href^='/coins'] {
     display: none !important;

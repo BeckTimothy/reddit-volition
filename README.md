@@ -56,7 +56,7 @@ The body's response to a sense of belonging and affirmation heavily rewards peop
 
 My hot take is that receiving feedback that your contribution was valuable, helpful, or agreed with gives you a rush of endorphins nearly as addictive as some chemical substances like meth, cocaine, and alcohol. I'm not making an argument that these responses to social behavior are as damaging as those other chemical addictions. They aren't, they are the basis for the social tendencies of humanity. However, they are also a weakness to be exploited for profit.
 
-As a human you have an inherent addiction to the chemical response of social validation at some varying level. Regardless if it works on you, karma is a tool to deliver and exploit that validation and encourage you to spend more time on the Reddit platform interacting with others within your chosen social circles.
+As a human you have an inherent addiction to the chemical response of social validation at some varying level. Regardless of how effective it works on you, karma is a tool to deliver and exploit that validation and encourage you to spend more time on the Reddit platform interacting with others within your chosen social circles.
 
 ___
 

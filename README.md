@@ -9,8 +9,8 @@ ___
 ### Table of Contents
 
 - [What is Reddit Volition](./README.md#What-Is-Reddit-Volition)
-- [License](./README.md#)
 - [How to use Reddit Volition](./README.md#How-To-Use-Reddit-Volition)
+- [License](./README.md#)
 - [What is Groupthink](./README.md#How-To-Use-Reddit-Volition)
 - [How is Karma Addictive](./README.md#What-Is-GroupThink)
 - [How to report a bug](./README.md#How-Is-Karma-Addictive)
@@ -22,6 +22,19 @@ ___
 
 Reddit Volition is (for now) a chrome extension that removes several key reddit features from the user's view as these features may be percieved as toxic, manipulative, and contribute to systematically warping a persons mind.
 
+
+___
+
+### How To Use Reddit Volition
+
+Currently, the extension is not yet availible through the chrome store, however you can fork this repository and compile the extension privately within your own browser.
+
+To do so follow [this guide](./compiling.md)
+
+To enable Reddit Volition's feature blocking capabilities, all you need to do is open the extension pop-over through your extension menu, and click the buttons that block the undesired features.
+
+![Reddit Volition Pop-over](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionMenu.PNG)
+![Reddit Volition Before After](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionWithoutToWith.PNG)
 
 ___
 
@@ -42,16 +55,7 @@ GNU General Public License for more details.
 You should have received [a copy of the GNU General Public License
 along with this program.](./LICENSE.txt)  If not, see <https://www.gnu.org/licenses/>.
 
-___
 
-### How To Use Reddit Volition
-
-Currently, the extension is not yet availible through the chrome store, however you can fork this repository and compile the extension privately within your own browser.
-
-To enable Reddit Volition's feature blocking capabilities, all you need to do is open the extension pop-over through your extension menu, and click the buttons that block the undesired features.
-
-![Reddit Volition Pop-over](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionMenu.PNG)
-![Reddit Volition Before After](https://raw.githubusercontent.com/BeckTimothy/reddit-volition/master/resources/volitionWithoutToWith.PNG)
 ___
 
 ### What Is GroupThink
